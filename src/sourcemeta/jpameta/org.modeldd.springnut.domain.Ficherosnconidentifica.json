@@ -1,0 +1,1944 @@
+{
+    "specType": "ENTITY",
+    "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica",
+    "shortName": "Ficherosnconidentifica",
+    "classAnnotations": [
+        {
+            "specType": "ANNOTATION",
+            "fullName": "javax.persistence.Entity",
+            "shortName": "Entity",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "name",
+                    "multiple": false,
+                    "stringValue": ""
+                }
+            ]
+        },
+        {
+            "specType": "ANNOTATION",
+            "fullName": "javax.persistence.Table",
+            "shortName": "Table",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "catalog",
+                    "multiple": false,
+                    "stringValue": ""
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "name",
+                    "multiple": false,
+                    "stringValue": "FICHEROSNCONIDENTIFICA"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "schema",
+                    "multiple": false,
+                    "stringValue": "RMCV"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "uniqueConstraints",
+                    "multiple": true,
+                    "stringValues": []
+                }
+            ]
+        },
+        {
+            "specType": "ANNOTATION",
+            "fullName": "org.springframework.beans.factory.annotation.Configurable",
+            "shortName": "Configurable",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "ENUM",
+                    "parameterName": "autowire",
+                    "multiple": false,
+                    "fullEnumName": "org.springframework.beans.factory.annotation.Autowire",
+                    "shortEnumName": "Autowire",
+                    "enumValue": "NO"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "dependencyCheck",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "preConstruction",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "value",
+                    "multiple": false,
+                    "stringValue": ""
+                }
+            ]
+        }
+    ],
+    "fieldSpecs": [
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.idfichero",
+            "shortName": "idfichero",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Id",
+                    "shortName": "Id",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": null
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.GeneratedValue",
+                    "shortName": "GeneratedValue",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "generator",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "strategy",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.GenerationType",
+                            "shortEnumName": "GenerationType",
+                            "enumValue": "AUTO"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "IDFICHERO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.ano",
+            "shortName": "ano",
+            "typeFullName": "java.lang.Integer",
+            "typeShortName": "Integer",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "ANO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.NotNull",
+                    "shortName": "NotNull",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.NotNull.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.Digits",
+                    "shortName": "Digits",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "fraction",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "integer",
+                            "multiple": false,
+                            "integerValue": 4
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.Digits.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.provincia",
+            "shortName": "provincia",
+            "typeFullName": "java.lang.Integer",
+            "typeShortName": "Integer",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "PROVINCIA"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.NotNull",
+                    "shortName": "NotNull",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.NotNull.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.Digits",
+                    "shortName": "Digits",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "fraction",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "integer",
+                            "multiple": false,
+                            "integerValue": 2
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.Digits.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.mes",
+            "shortName": "mes",
+            "typeFullName": "java.lang.Integer",
+            "typeShortName": "Integer",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MES"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.NotNull",
+                    "shortName": "NotNull",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.NotNull.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.Digits",
+                    "shortName": "Digits",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "fraction",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "integer",
+                            "multiple": false,
+                            "integerValue": 2
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.Digits.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.ifnIdfichero",
+            "shortName": "ifnIdfichero",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "IFN_IDFICHERO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.NotNull",
+                    "shortName": "NotNull",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.NotNull.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.ifnNumboletines",
+            "shortName": "ifnNumboletines",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "IFN_NUMBOLETINES"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.ifnMinidentifica",
+            "shortName": "ifnMinidentifica",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "IFN_MINIDENTIFICA"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.ifnMaxidentifica",
+            "shortName": "ifnMaxidentifica",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "IFN_MAXIDENTIFICA"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.ultboletin",
+            "shortName": "ultboletin",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "ULTBOLETIN"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.Size",
+                    "shortName": "Size",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "max",
+                            "multiple": false,
+                            "integerValue": 9
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.Size.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "min",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.primboletin",
+            "shortName": "primboletin",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "PRIMBOLETIN"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.Size",
+                    "shortName": "Size",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "max",
+                            "multiple": false,
+                            "integerValue": 9
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.Size.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "min",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.nombrefichero",
+            "shortName": "nombrefichero",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "VARCHAR2"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 50
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "NOMBREFICHERO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.entityManager",
+            "shortName": "entityManager",
+            "typeFullName": "javax.persistence.EntityManager",
+            "typeShortName": "EntityManager",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.PersistenceContext",
+                    "shortName": "PersistenceContext",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "properties",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "type",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.PersistenceContextType",
+                            "shortEnumName": "PersistenceContextType",
+                            "enumValue": "TRANSACTION"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "unitName",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.ajc$tjp_0",
+            "shortName": "ajc$tjp_0",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.ajc$tjp_1",
+            "shortName": "ajc$tjp_1",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.ajc$tjp_2",
+            "shortName": "ajc$tjp_2",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.ajc$tjp_3",
+            "shortName": "ajc$tjp_3",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.ajc$tjp_4",
+            "shortName": "ajc$tjp_4",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        }
+    ],
+    "methodSpecs": [
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.persist",
+            "shortName": "persist",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.remove",
+            "shortName": "remove",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.clear",
+            "shortName": "clear",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.flush",
+            "shortName": "flush",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Ficherosnconidentifica.merge",
+            "shortName": "merge",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

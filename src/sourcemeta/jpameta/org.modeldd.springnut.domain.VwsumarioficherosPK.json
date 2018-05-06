@@ -1,0 +1,807 @@
+{
+    "specType": "ENTITY",
+    "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK",
+    "shortName": "VwsumarioficherosPK",
+    "classAnnotations": [
+        {
+            "specType": "ANNOTATION",
+            "fullName": "javax.persistence.Embeddable",
+            "shortName": "Embeddable",
+            "annotatedMetaType": "CLASS",
+            "parameters": null
+        },
+        {
+            "specType": "ANNOTATION",
+            "fullName": "org.springframework.beans.factory.annotation.Configurable",
+            "shortName": "Configurable",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "ENUM",
+                    "parameterName": "autowire",
+                    "multiple": false,
+                    "fullEnumName": "org.springframework.beans.factory.annotation.Autowire",
+                    "shortEnumName": "Autowire",
+                    "enumValue": "NO"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "dependencyCheck",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "preConstruction",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "value",
+                    "multiple": false,
+                    "stringValue": ""
+                }
+            ]
+        }
+    ],
+    "fieldSpecs": [
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.idfichero",
+            "shortName": "idfichero",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "IDFICHERO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.provincia",
+            "shortName": "provincia",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "PROVINCIA"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.mes",
+            "shortName": "mes",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MES"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.ano",
+            "shortName": "ano",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "ANO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.totales",
+            "shortName": "totales",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "TOTALES"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.normales",
+            "shortName": "normales",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "NORMALES"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.judiciales",
+            "shortName": "judiciales",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "JUDICIALES"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.imagenes",
+            "shortName": "imagenes",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "IMAGENES"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.serialVersionUID",
+            "shortName": "serialVersionUID",
+            "typeFullName": "long",
+            "typeShortName": "long",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.ajc$tjp_0",
+            "shortName": "ajc$tjp_0",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.ajc$tjp_1",
+            "shortName": "ajc$tjp_1",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.ajc$tjp_2",
+            "shortName": "ajc$tjp_2",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.ajc$tjp_3",
+            "shortName": "ajc$tjp_3",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.ajc$tjp_4",
+            "shortName": "ajc$tjp_4",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.VwsumarioficherosPK.ajc$tjp_5",
+            "shortName": "ajc$tjp_5",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        }
+    ],
+    "methodSpecs": null
+}

@@ -1,0 +1,505 @@
+{
+    "specType": "ENTITY",
+    "fullName": "org.modeldd.springnut.domain.Fase",
+    "shortName": "Fase",
+    "classAnnotations": [
+        {
+            "specType": "ANNOTATION",
+            "fullName": "javax.persistence.Entity",
+            "shortName": "Entity",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "name",
+                    "multiple": false,
+                    "stringValue": ""
+                }
+            ]
+        },
+        {
+            "specType": "ANNOTATION",
+            "fullName": "javax.persistence.Table",
+            "shortName": "Table",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "catalog",
+                    "multiple": false,
+                    "stringValue": ""
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "name",
+                    "multiple": false,
+                    "stringValue": "FASES"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "schema",
+                    "multiple": false,
+                    "stringValue": "RMCV"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "uniqueConstraints",
+                    "multiple": true,
+                    "stringValues": []
+                }
+            ]
+        },
+        {
+            "specType": "ANNOTATION",
+            "fullName": "org.springframework.beans.factory.annotation.Configurable",
+            "shortName": "Configurable",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "ENUM",
+                    "parameterName": "autowire",
+                    "multiple": false,
+                    "fullEnumName": "org.springframework.beans.factory.annotation.Autowire",
+                    "shortEnumName": "Autowire",
+                    "enumValue": "NO"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "dependencyCheck",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "preConstruction",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "value",
+                    "multiple": false,
+                    "stringValue": ""
+                }
+            ]
+        }
+    ],
+    "fieldSpecs": [
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Fase.faIdfichero",
+            "shortName": "faIdfichero",
+            "typeFullName": "org.modeldd.springnut.domain.Ficheron",
+            "typeShortName": "Ficheron",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.ManyToOne",
+                    "shortName": "ManyToOne",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "cascade",
+                            "multiple": true,
+                            "fullEnumName": "javax.persistence.CascadeType",
+                            "shortEnumName": "CascadeType",
+                            "enumValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "fetch",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.FetchType",
+                            "shortEnumName": "FetchType",
+                            "enumValue": "EAGER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "optional",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "targetEntity",
+                            "multiple": false,
+                            "fullClassName": "void",
+                            "shortClassName": "void"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.JoinColumn",
+                    "shortName": "JoinColumn",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "FA_IDFICHERO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "referencedColumnName",
+                            "multiple": false,
+                            "stringValue": "IDFICHERO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Fase.erroreses",
+            "shortName": "erroreses",
+            "typeFullName": "java.util.Set",
+            "typeShortName": "Set",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.OneToMany",
+                    "shortName": "OneToMany",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "cascade",
+                            "multiple": true,
+                            "fullEnumName": "javax.persistence.CascadeType",
+                            "shortEnumName": "CascadeType",
+                            "enumValues": [
+                                "PERSIST",
+                                "MERGE",
+                                "REMOVE"
+                            ]
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "fetch",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.FetchType",
+                            "shortEnumName": "FetchType",
+                            "enumValue": "LAZY"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "mappedBy",
+                            "multiple": false,
+                            "stringValue": "idfase"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "orphanRemoval",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "targetEntity",
+                            "multiple": false,
+                            "fullClassName": "void",
+                            "shortClassName": "void"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Fase.ajc$tjp_0",
+            "shortName": "ajc$tjp_0",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Fase.ajc$tjp_1",
+            "shortName": "ajc$tjp_1",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Fase.ajc$tjp_2",
+            "shortName": "ajc$tjp_2",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Fase.ajc$tjp_3",
+            "shortName": "ajc$tjp_3",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Fase.ajc$tjp_4",
+            "shortName": "ajc$tjp_4",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Fase.ajc$tjp_5",
+            "shortName": "ajc$tjp_5",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        }
+    ],
+    "methodSpecs": [
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Fase.getAFichero",
+            "shortName": "getAFichero",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Transient",
+                    "shortName": "Transient",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": null
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Fase.persistFase",
+            "shortName": "persistFase",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Fase.merge",
+            "shortName": "merge",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

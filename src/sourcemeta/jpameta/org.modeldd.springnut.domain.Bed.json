@@ -1,0 +1,1219 @@
+{
+    "specType": "ENTITY",
+    "fullName": "org.modeldd.springnut.domain.Bed",
+    "shortName": "Bed",
+    "classAnnotations": [
+        {
+            "specType": "ANNOTATION",
+            "fullName": "javax.persistence.Entity",
+            "shortName": "Entity",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "name",
+                    "multiple": false,
+                    "stringValue": ""
+                }
+            ]
+        },
+        {
+            "specType": "ANNOTATION",
+            "fullName": "javax.persistence.Table",
+            "shortName": "Table",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "catalog",
+                    "multiple": false,
+                    "stringValue": ""
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "name",
+                    "multiple": false,
+                    "stringValue": "BED"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "schema",
+                    "multiple": false,
+                    "stringValue": "RMCV"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "uniqueConstraints",
+                    "multiple": true,
+                    "stringValues": []
+                }
+            ]
+        },
+        {
+            "specType": "ANNOTATION",
+            "fullName": "org.hibernate.envers.Audited",
+            "shortName": "Audited",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "CLASS",
+                    "parameterName": "auditParents",
+                    "multiple": true,
+                    "fullClassNames": [],
+                    "shortClassNames": []
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "ENUM",
+                    "parameterName": "modStore",
+                    "multiple": false,
+                    "fullEnumName": "org.hibernate.envers.ModificationStore",
+                    "shortEnumName": "ModificationStore",
+                    "enumValue": "FULL"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "ENUM",
+                    "parameterName": "targetAuditMode",
+                    "multiple": false,
+                    "fullEnumName": "org.hibernate.envers.RelationTargetAuditMode",
+                    "shortEnumName": "RelationTargetAuditMode",
+                    "enumValue": "AUDITED"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "withModifiedFlag",
+                    "multiple": false,
+                    "booleanValue": true
+                }
+            ]
+        },
+        {
+            "specType": "ANNOTATION",
+            "fullName": "org.modeldd.springnut.domain.validation.Fecha.List",
+            "shortName": "List",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "NESTED",
+                    "parameterName": "value",
+                    "multiple": true,
+                    "nestedAnnotation": null,
+                    "nestedAnnotations": [
+                        {
+                            "specType": "ANNOTATION",
+                            "fullName": "org.modeldd.springnut.domain.validation.Fecha",
+                            "shortName": "Fecha",
+                            "annotatedMetaType": "NESTED",
+                            "parameters": [
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "anyo",
+                                    "multiple": false,
+                                    "stringValue": "anoil"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "dia",
+                                    "multiple": false,
+                                    "stringValue": "diail"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "CLASS",
+                                    "parameterName": "groups",
+                                    "multiple": true,
+                                    "fullClassNames": [
+                                        "org.modeldd.springnut.domain.validation.Grupos.CodLiterales"
+                                    ],
+                                    "shortClassNames": [
+                                        "CodLiterales"
+                                    ]
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "mes",
+                                    "multiple": false,
+                                    "stringValue": "mesil"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "message",
+                                    "multiple": false,
+                                    "stringValue": "Error en la fecha de inscripción"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "CLASS",
+                                    "parameterName": "payload",
+                                    "multiple": true,
+                                    "fullClassNames": [],
+                                    "shortClassNames": []
+                                }
+                            ]
+                        },
+                        {
+                            "specType": "ANNOTATION",
+                            "fullName": "org.modeldd.springnut.domain.validation.Fecha",
+                            "shortName": "Fecha",
+                            "annotatedMetaType": "NESTED",
+                            "parameters": [
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "anyo",
+                                    "multiple": false,
+                                    "stringValue": "anon"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "dia",
+                                    "multiple": false,
+                                    "stringValue": "dian"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "CLASS",
+                                    "parameterName": "groups",
+                                    "multiple": true,
+                                    "fullClassNames": [
+                                        "org.modeldd.springnut.domain.validation.Grupos.CodLiterales"
+                                    ],
+                                    "shortClassNames": [
+                                        "CodLiterales"
+                                    ]
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "mes",
+                                    "multiple": false,
+                                    "stringValue": "mesn"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "message",
+                                    "multiple": false,
+                                    "stringValue": "Error en la fecha de nacimiento"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "CLASS",
+                                    "parameterName": "payload",
+                                    "multiple": true,
+                                    "fullClassNames": [],
+                                    "shortClassNames": []
+                                }
+                            ]
+                        },
+                        {
+                            "specType": "ANNOTATION",
+                            "fullName": "org.modeldd.springnut.domain.validation.Fecha",
+                            "shortName": "Fecha",
+                            "annotatedMetaType": "NESTED",
+                            "parameters": [
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "anyo",
+                                    "multiple": false,
+                                    "stringValue": "anodef"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "dia",
+                                    "multiple": false,
+                                    "stringValue": "diadef"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "CLASS",
+                                    "parameterName": "groups",
+                                    "multiple": true,
+                                    "fullClassNames": [
+                                        "org.modeldd.springnut.domain.validation.Grupos.CodLiterales"
+                                    ],
+                                    "shortClassNames": [
+                                        "CodLiterales"
+                                    ]
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "mes",
+                                    "multiple": false,
+                                    "stringValue": "mesdef"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "message",
+                                    "multiple": false,
+                                    "stringValue": "Error en la fecha de defunción"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "CLASS",
+                                    "parameterName": "payload",
+                                    "multiple": true,
+                                    "fullClassNames": [],
+                                    "shortClassNames": []
+                                }
+                            ]
+                        },
+                        {
+                            "specType": "ANNOTATION",
+                            "fullName": "org.modeldd.springnut.domain.validation.Fecha",
+                            "shortName": "Fecha",
+                            "annotatedMetaType": "NESTED",
+                            "parameters": [
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "anyo",
+                                    "multiple": false,
+                                    "stringValue": "anoaccid"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "dia",
+                                    "multiple": false,
+                                    "stringValue": "diaaccid"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "CLASS",
+                                    "parameterName": "groups",
+                                    "multiple": true,
+                                    "fullClassNames": [
+                                        "org.modeldd.springnut.domain.validation.Grupos.CodLiterales"
+                                    ],
+                                    "shortClassNames": [
+                                        "CodLiterales"
+                                    ]
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "mes",
+                                    "multiple": false,
+                                    "stringValue": "mesaccid"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "STRING",
+                                    "parameterName": "message",
+                                    "multiple": false,
+                                    "stringValue": "Error en la fecha del accidente"
+                                },
+                                {
+                                    "specType": "PARAMETER",
+                                    "parameterType": "CLASS",
+                                    "parameterName": "payload",
+                                    "multiple": true,
+                                    "fullClassNames": [],
+                                    "shortClassNames": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "ANNOTATION",
+            "fullName": "org.springframework.beans.factory.annotation.Configurable",
+            "shortName": "Configurable",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "ENUM",
+                    "parameterName": "autowire",
+                    "multiple": false,
+                    "fullEnumName": "org.springframework.beans.factory.annotation.Autowire",
+                    "shortEnumName": "Autowire",
+                    "enumValue": "NO"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "dependencyCheck",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "preConstruction",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "value",
+                    "multiple": false,
+                    "stringValue": ""
+                }
+            ]
+        }
+    ],
+    "fieldSpecs": [
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.MAX_LIST_EXPRESSIONS",
+            "shortName": "MAX_LIST_EXPRESSIONS",
+            "typeFullName": "int",
+            "typeShortName": "int",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.FINDBEDSBYIDS_UNION",
+            "shortName": "FINDBEDSBYIDS_UNION",
+            "typeFullName": "boolean",
+            "typeShortName": "boolean",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.bedcod",
+            "shortName": "bedcod",
+            "typeFullName": "org.modeldd.springnut.domain.Bedcod",
+            "typeShortName": "Bedcod",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.OneToOne",
+                    "shortName": "OneToOne",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "cascade",
+                            "multiple": true,
+                            "fullEnumName": "javax.persistence.CascadeType",
+                            "shortEnumName": "CascadeType",
+                            "enumValues": [
+                                "ALL"
+                            ]
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "fetch",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.FetchType",
+                            "shortEnumName": "FetchType",
+                            "enumValue": "EAGER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "mappedBy",
+                            "multiple": false,
+                            "stringValue": "bed"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "optional",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "orphanRemoval",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "targetEntity",
+                            "multiple": false,
+                            "fullClassName": "void",
+                            "shortClassName": "void"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.hibernate.envers.NotAudited",
+                    "shortName": "NotAudited",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": null
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.bedlit",
+            "shortName": "bedlit",
+            "typeFullName": "org.modeldd.springnut.domain.Bedlit",
+            "typeShortName": "Bedlit",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.OneToOne",
+                    "shortName": "OneToOne",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "cascade",
+                            "multiple": true,
+                            "fullEnumName": "javax.persistence.CascadeType",
+                            "shortEnumName": "CascadeType",
+                            "enumValues": [
+                                "ALL"
+                            ]
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "fetch",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.FetchType",
+                            "shortEnumName": "FetchType",
+                            "enumValue": "EAGER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "mappedBy",
+                            "multiple": false,
+                            "stringValue": "bed"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "optional",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "orphanRemoval",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "targetEntity",
+                            "multiple": false,
+                            "fullClassName": "void",
+                            "shortClassName": "void"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.idfichero",
+            "shortName": "idfichero",
+            "typeFullName": "org.modeldd.springnut.domain.Ficheron",
+            "typeShortName": "Ficheron",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.ManyToOne",
+                    "shortName": "ManyToOne",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "cascade",
+                            "multiple": true,
+                            "fullEnumName": "javax.persistence.CascadeType",
+                            "shortEnumName": "CascadeType",
+                            "enumValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "fetch",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.FetchType",
+                            "shortEnumName": "FetchType",
+                            "enumValue": "EAGER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "optional",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "targetEntity",
+                            "multiple": false,
+                            "fullClassName": "void",
+                            "shortClassName": "void"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.hibernate.envers.NotAudited",
+                    "shortName": "NotAudited",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": null
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.JoinColumn",
+                    "shortName": "JoinColumn",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "IDFICHERO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "referencedColumnName",
+                            "multiple": false,
+                            "stringValue": "IDFICHERO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.imagen",
+            "shortName": "imagen",
+            "typeFullName": "org.modeldd.springnut.domain.BedImagenes",
+            "typeShortName": "BedImagenes",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.OneToOne",
+                    "shortName": "OneToOne",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "cascade",
+                            "multiple": true,
+                            "fullEnumName": "javax.persistence.CascadeType",
+                            "shortEnumName": "CascadeType",
+                            "enumValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "fetch",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.FetchType",
+                            "shortEnumName": "FetchType",
+                            "enumValue": "LAZY"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "mappedBy",
+                            "multiple": false,
+                            "stringValue": "bed"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "optional",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "orphanRemoval",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "targetEntity",
+                            "multiple": false,
+                            "fullClassName": "void",
+                            "shortClassName": "void"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.hibernate.envers.NotAudited",
+                    "shortName": "NotAudited",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": null
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.bedjs",
+            "shortName": "bedjs",
+            "typeFullName": "java.util.Set",
+            "typeShortName": "Set",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.OneToMany",
+                    "shortName": "OneToMany",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "cascade",
+                            "multiple": true,
+                            "fullEnumName": "javax.persistence.CascadeType",
+                            "shortEnumName": "CascadeType",
+                            "enumValues": [
+                                "PERSIST",
+                                "MERGE"
+                            ]
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "fetch",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.FetchType",
+                            "shortEnumName": "FetchType",
+                            "enumValue": "LAZY"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "mappedBy",
+                            "multiple": false,
+                            "stringValue": "bedIdboletin"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "orphanRemoval",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "targetEntity",
+                            "multiple": false,
+                            "fullClassName": "void",
+                            "shortClassName": "void"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.hibernate.envers.NotAudited",
+                    "shortName": "NotAudited",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": null
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.erroreses",
+            "shortName": "erroreses",
+            "typeFullName": "java.util.Set",
+            "typeShortName": "Set",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.OneToMany",
+                    "shortName": "OneToMany",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "cascade",
+                            "multiple": true,
+                            "fullEnumName": "javax.persistence.CascadeType",
+                            "shortEnumName": "CascadeType",
+                            "enumValues": [
+                                "PERSIST",
+                                "MERGE"
+                            ]
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "fetch",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.FetchType",
+                            "shortEnumName": "FetchType",
+                            "enumValue": "LAZY"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "mappedBy",
+                            "multiple": false,
+                            "stringValue": "idbed"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "orphanRemoval",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "targetEntity",
+                            "multiple": false,
+                            "fullClassName": "void",
+                            "shortClassName": "void"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.hibernate.envers.NotAudited",
+                    "shortName": "NotAudited",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": null
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_0",
+            "shortName": "ajc$tjp_0",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_1",
+            "shortName": "ajc$tjp_1",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_2",
+            "shortName": "ajc$tjp_2",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_3",
+            "shortName": "ajc$tjp_3",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_4",
+            "shortName": "ajc$tjp_4",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_5",
+            "shortName": "ajc$tjp_5",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_6",
+            "shortName": "ajc$tjp_6",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_7",
+            "shortName": "ajc$tjp_7",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_8",
+            "shortName": "ajc$tjp_8",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_9",
+            "shortName": "ajc$tjp_9",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_10",
+            "shortName": "ajc$tjp_10",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_11",
+            "shortName": "ajc$tjp_11",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_12",
+            "shortName": "ajc$tjp_12",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_13",
+            "shortName": "ajc$tjp_13",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_14",
+            "shortName": "ajc$tjp_14",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_15",
+            "shortName": "ajc$tjp_15",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_16",
+            "shortName": "ajc$tjp_16",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_17",
+            "shortName": "ajc$tjp_17",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_18",
+            "shortName": "ajc$tjp_18",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Bed.ajc$tjp_19",
+            "shortName": "ajc$tjp_19",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        }
+    ],
+    "methodSpecs": [
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Bed.getABedlit",
+            "shortName": "getABedlit",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Transient",
+                    "shortName": "Transient",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": null
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Bed.changeDeathBedWithDeathBedj",
+            "shortName": "changeDeathBedWithDeathBedj",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Bed.getABedcod",
+            "shortName": "getABedcod",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Transient",
+                    "shortName": "Transient",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": null
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Bed.merge",
+            "shortName": "merge",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

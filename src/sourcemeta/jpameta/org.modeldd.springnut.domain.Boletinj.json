@@ -1,0 +1,112 @@
+{
+    "specType": "ENTITY",
+    "fullName": "org.modeldd.springnut.domain.Boletinj",
+    "shortName": "Boletinj",
+    "classAnnotations": [
+        {
+            "specType": "ANNOTATION",
+            "fullName": "org.springframework.beans.factory.annotation.Configurable",
+            "shortName": "Configurable",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "ENUM",
+                    "parameterName": "autowire",
+                    "multiple": false,
+                    "fullEnumName": "org.springframework.beans.factory.annotation.Autowire",
+                    "shortEnumName": "Autowire",
+                    "enumValue": "NO"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "dependencyCheck",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "preConstruction",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "value",
+                    "multiple": false,
+                    "stringValue": ""
+                }
+            ]
+        }
+    ],
+    "fieldSpecs": [
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Boletinj.bedj",
+            "shortName": "bedj",
+            "typeFullName": "org.modeldd.springnut.domain.Bedj",
+            "typeShortName": "Bedj",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.Valid",
+                    "shortName": "Valid",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": null
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Boletinj.bedcodj",
+            "shortName": "bedcodj",
+            "typeFullName": "org.modeldd.springnut.domain.Bedcodj",
+            "typeShortName": "Bedcodj",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.Valid",
+                    "shortName": "Valid",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": null
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Boletinj.bedlitj",
+            "shortName": "bedlitj",
+            "typeFullName": "org.modeldd.springnut.domain.Bedlitj",
+            "typeShortName": "Bedlitj",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.Valid",
+                    "shortName": "Valid",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": null
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Boletinj.ajc$tjp_0",
+            "shortName": "ajc$tjp_0",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Boletinj.ajc$tjp_1",
+            "shortName": "ajc$tjp_1",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        }
+    ],
+    "methodSpecs": null
+}

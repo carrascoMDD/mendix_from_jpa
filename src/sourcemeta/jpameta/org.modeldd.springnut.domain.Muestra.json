@@ -1,0 +1,2476 @@
+{
+    "specType": "ENTITY",
+    "fullName": "org.modeldd.springnut.domain.Muestra",
+    "shortName": "Muestra",
+    "classAnnotations": [
+        {
+            "specType": "ANNOTATION",
+            "fullName": "javax.persistence.Entity",
+            "shortName": "Entity",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "name",
+                    "multiple": false,
+                    "stringValue": ""
+                }
+            ]
+        },
+        {
+            "specType": "ANNOTATION",
+            "fullName": "javax.persistence.Table",
+            "shortName": "Table",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "catalog",
+                    "multiple": false,
+                    "stringValue": ""
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "name",
+                    "multiple": false,
+                    "stringValue": "MUESTRAS"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "schema",
+                    "multiple": false,
+                    "stringValue": "RMCV"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "uniqueConstraints",
+                    "multiple": true,
+                    "stringValues": []
+                }
+            ]
+        },
+        {
+            "specType": "ANNOTATION",
+            "fullName": "org.springframework.beans.factory.annotation.Configurable",
+            "shortName": "Configurable",
+            "annotatedMetaType": "CLASS",
+            "parameters": [
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "ENUM",
+                    "parameterName": "autowire",
+                    "multiple": false,
+                    "fullEnumName": "org.springframework.beans.factory.annotation.Autowire",
+                    "shortEnumName": "Autowire",
+                    "enumValue": "NO"
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "dependencyCheck",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "BOOLEAN",
+                    "parameterName": "preConstruction",
+                    "multiple": false,
+                    "booleanValue": false
+                },
+                {
+                    "specType": "PARAMETER",
+                    "parameterType": "STRING",
+                    "parameterName": "value",
+                    "multiple": false,
+                    "stringValue": ""
+                }
+            ]
+        }
+    ],
+    "fieldSpecs": [
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.MAXMUESTRALEN",
+            "shortName": "MAXMUESTRALEN",
+            "typeFullName": "java.lang.Integer",
+            "typeShortName": "Integer",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra._g_AnnoReflectionHelper",
+            "shortName": "_g_AnnoReflectionHelper",
+            "typeFullName": "org.modeldd.springnut.util.annoreflection.AnnoReflectionHelper",
+            "typeShortName": "AnnoReflectionHelper",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muIdmuestra",
+            "shortName": "muIdmuestra",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Id",
+                    "shortName": "Id",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": null
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.SequenceGenerator",
+                    "shortName": "SequenceGenerator",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "allocationSize",
+                            "multiple": false,
+                            "integerValue": 1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "catalog",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "initialValue",
+                            "multiple": false,
+                            "integerValue": 1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "muestraGen"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "schema",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "sequenceName",
+                            "multiple": false,
+                            "stringValue": "S_MUESTRAS"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.GeneratedValue",
+                    "shortName": "GeneratedValue",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "generator",
+                            "multiple": false,
+                            "stringValue": "muestraGen"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "strategy",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.GenerationType",
+                            "shortEnumName": "GenerationType",
+                            "enumValue": "SEQUENCE"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_IDMUESTRA"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muTipomuestra",
+            "shortName": "muTipomuestra",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "VARCHAR2"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_TIPOMUESTRA"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.NotNull",
+                    "shortName": "NotNull",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.NotNull.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muNombremuestra",
+            "shortName": "muNombremuestra",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "VARCHAR2"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_NOMBREMUESTRA"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.NotNull",
+                    "shortName": "NotNull",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.NotNull.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muDeprueba",
+            "shortName": "muDeprueba",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "VARCHAR2"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_DEPRUEBA"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muIgnorarmuestra",
+            "shortName": "muIgnorarmuestra",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_IGNORARMUESTRA"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muFecha",
+            "shortName": "muFecha",
+            "typeFullName": "java.util.Calendar",
+            "typeShortName": "Calendar",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "DATE"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_FECHA"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.NotNull",
+                    "shortName": "NotNull",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.NotNull.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Temporal",
+                    "shortName": "Temporal",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.TemporalType",
+                            "shortEnumName": "TemporalType",
+                            "enumValue": "TIMESTAMP"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.format.annotation.DateTimeFormat",
+                    "shortName": "DateTimeFormat",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "iso",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.format.annotation.DateTimeFormat.ISO",
+                            "shortEnumName": "ISO",
+                            "enumValue": "NONE"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "pattern",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "style",
+                            "multiple": false,
+                            "stringValue": "MM"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muTipovalor",
+            "shortName": "muTipovalor",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "VARCHAR2"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_TIPOVALOR"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.NotNull",
+                    "shortName": "NotNull",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.NotNull.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muIdprogreso",
+            "shortName": "muIdprogreso",
+            "typeFullName": "org.modeldd.springnut.domain.Progreso",
+            "typeShortName": "Progreso",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.ManyToOne",
+                    "shortName": "ManyToOne",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "cascade",
+                            "multiple": true,
+                            "fullEnumName": "javax.persistence.CascadeType",
+                            "shortEnumName": "CascadeType",
+                            "enumValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "fetch",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.FetchType",
+                            "shortEnumName": "FetchType",
+                            "enumValue": "EAGER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "optional",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "targetEntity",
+                            "multiple": false,
+                            "fullClassName": "void",
+                            "shortClassName": "void"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.JoinColumn",
+                    "shortName": "JoinColumn",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_IDPROGRESO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "referencedColumnName",
+                            "multiple": false,
+                            "stringValue": "PG_IDPROGRESO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muTipoprogreso",
+            "shortName": "muTipoprogreso",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "VARCHAR2"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_TIPOPROGRESO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.NotNull",
+                    "shortName": "NotNull",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.NotNull.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muMueid",
+            "shortName": "muMueid",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_MUEID"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muMueidtipo",
+            "shortName": "muMueidtipo",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "VARCHAR2"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_MUEIDTIPO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muMuestr",
+            "shortName": "muMuestr",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "VARCHAR2"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_MUESTR"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muMuedec",
+            "shortName": "muMuedec",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_MUEDEC"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muMueboo",
+            "shortName": "muMueboo",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_MUEBOO"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muMuedat",
+            "shortName": "muMuedat",
+            "typeFullName": "java.util.Calendar",
+            "typeShortName": "Calendar",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "DATE"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_MUEDAT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Temporal",
+                    "shortName": "Temporal",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.TemporalType",
+                            "shortEnumName": "TemporalType",
+                            "enumValue": "TIMESTAMP"
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.format.annotation.DateTimeFormat",
+                    "shortName": "DateTimeFormat",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "iso",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.format.annotation.DateTimeFormat.ISO",
+                            "shortEnumName": "ISO",
+                            "enumValue": "NONE"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "pattern",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "style",
+                            "multiple": false,
+                            "stringValue": "MM"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muCharset",
+            "shortName": "muCharset",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "VARCHAR2"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_CHARSET"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.muLargovalor",
+            "shortName": "muLargovalor",
+            "typeFullName": "java.math.BigDecimal",
+            "typeShortName": "BigDecimal",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.Column",
+                    "shortName": "Column",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "columnDefinition",
+                            "multiple": false,
+                            "stringValue": "NUMBER"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "insertable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "length",
+                            "multiple": false,
+                            "integerValue": 255
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": "MU_LARGOVALOR"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "nullable",
+                            "multiple": false,
+                            "booleanValue": true
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "precision",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "scale",
+                            "multiple": false,
+                            "integerValue": 0
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "table",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "unique",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "updatable",
+                            "multiple": false,
+                            "booleanValue": true
+                        }
+                    ]
+                },
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.validation.constraints.NotNull",
+                    "shortName": "NotNull",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "groups",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "message",
+                            "multiple": false,
+                            "stringValue": "{javax.validation.constraints.NotNull.message}"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "payload",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.entityManager",
+            "shortName": "entityManager",
+            "typeFullName": "javax.persistence.EntityManager",
+            "typeShortName": "EntityManager",
+            "fieldAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "javax.persistence.PersistenceContext",
+                    "shortName": "PersistenceContext",
+                    "annotatedMetaType": "FIELD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "name",
+                            "multiple": false,
+                            "stringValue": ""
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "properties",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "type",
+                            "multiple": false,
+                            "fullEnumName": "javax.persistence.PersistenceContextType",
+                            "shortEnumName": "PersistenceContextType",
+                            "enumValue": "TRANSACTION"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "unitName",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.ajc$tjp_0",
+            "shortName": "ajc$tjp_0",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.ajc$tjp_1",
+            "shortName": "ajc$tjp_1",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.ajc$tjp_2",
+            "shortName": "ajc$tjp_2",
+            "typeFullName": "org.aspectj.lang.JoinPoint.StaticPart",
+            "typeShortName": "StaticPart",
+            "fieldAnnotations": null
+        }
+    ],
+    "methodSpecs": [
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.persist",
+            "shortName": "persist",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.remove",
+            "shortName": "remove",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.clear",
+            "shortName": "clear",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.flush",
+            "shortName": "flush",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "specType": "METHOD",
+            "fullName": "org.modeldd.springnut.domain.Muestra.merge",
+            "shortName": "merge",
+            "methodAnnotations": [
+                {
+                    "specType": "ANNOTATION",
+                    "fullName": "org.springframework.transaction.annotation.Transactional",
+                    "shortName": "Transactional",
+                    "annotatedMetaType": "METHOD",
+                    "parameters": [
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "isolation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Isolation",
+                            "shortEnumName": "Isolation",
+                            "enumValue": "DEFAULT"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "noRollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "noRollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "ENUM",
+                            "parameterName": "propagation",
+                            "multiple": false,
+                            "fullEnumName": "org.springframework.transaction.annotation.Propagation",
+                            "shortEnumName": "Propagation",
+                            "enumValue": "REQUIRED"
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "BOOLEAN",
+                            "parameterName": "readOnly",
+                            "multiple": false,
+                            "booleanValue": false
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "CLASS",
+                            "parameterName": "rollbackFor",
+                            "multiple": true,
+                            "fullClassNames": [],
+                            "shortClassNames": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "rollbackForClassName",
+                            "multiple": true,
+                            "stringValues": []
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "INTEGER",
+                            "parameterName": "timeout",
+                            "multiple": false,
+                            "integerValue": -1
+                        },
+                        {
+                            "specType": "PARAMETER",
+                            "parameterType": "STRING",
+                            "parameterName": "value",
+                            "multiple": false,
+                            "stringValue": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

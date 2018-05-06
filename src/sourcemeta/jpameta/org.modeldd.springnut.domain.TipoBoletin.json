@@ -1,0 +1,105 @@
+{
+    "specType": "ENTITY",
+    "fullName": "org.modeldd.springnut.domain.TipoBoletin",
+    "shortName": "TipoBoletin",
+    "classAnnotations": [],
+    "fieldSpecs": [
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.INE",
+            "shortName": "INE",
+            "typeFullName": "org.modeldd.springnut.domain.TipoBoletin",
+            "typeShortName": "TipoBoletin",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.JUDICIAL",
+            "shortName": "JUDICIAL",
+            "typeFullName": "org.modeldd.springnut.domain.TipoBoletin",
+            "typeShortName": "TipoBoletin",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.fichero",
+            "shortName": "fichero",
+            "typeFullName": "java.lang.Class",
+            "typeShortName": "Class",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.bed",
+            "shortName": "bed",
+            "typeFullName": "java.lang.Class",
+            "typeShortName": "Class",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.bedlit",
+            "shortName": "bedlit",
+            "typeFullName": "java.lang.Class",
+            "typeShortName": "Class",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.bedcod",
+            "shortName": "bedcod",
+            "typeFullName": "java.lang.Class",
+            "typeShortName": "Class",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.fase",
+            "shortName": "fase",
+            "typeFullName": "java.lang.Class",
+            "typeShortName": "Class",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.error",
+            "shortName": "error",
+            "typeFullName": "java.lang.Class",
+            "typeShortName": "Class",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.urlPath",
+            "shortName": "urlPath",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.bedRelation",
+            "shortName": "bedRelation",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.selectByCondicion",
+            "shortName": "selectByCondicion",
+            "typeFullName": "java.lang.String",
+            "typeShortName": "String",
+            "fieldAnnotations": null
+        },
+        {
+            "specType": "FIELD",
+            "fullName": "org.modeldd.springnut.domain.TipoBoletin.ENUM$VALUES",
+            "shortName": "ENUM$VALUES",
+            "typeFullName": "org.modeldd.springnut.domain.TipoBoletin[]",
+            "typeShortName": "TipoBoletin[]",
+            "fieldAnnotations": null
+        }
+    ],
+    "methodSpecs": null
+}
