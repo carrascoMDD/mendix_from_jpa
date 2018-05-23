@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jpa:entity-mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:java="http://jcp.org/en/jsr/detail?id=270" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jpa="http://java.sun.com/xml/ns/persistence/orm" pkg="org.modeldd.stealmodel_jpa" v="4.4" rws="_151970502192868" Pws="_151970502192868" cws="_151970502192868" persistenceUnitName="HORTACASAPU" ee="JAVA_EE_8" sm="true" smpkg="org.modeldd.stealmodel_jpa.metamodel" xs="false" id="_151970502192867" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm orm_2_1.xsd">
+    <jpa:entity compositePrimaryKeyClass="RolPK" abs="false" class="Rol" v="true" jbn="false" xre="false" m="false" rootElement="_151970502192867" id="_1519706310435">
+        <jpa:ath>Antonio Carrasco Valero Copyright 2018</jpa:ath>
+        <jpa:attributes>
+            <jpa:basic attribute-type="String" v="true" xvt="" name="nombre" id="_151970692838382">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+            </jpa:basic>
+            <jpa:basic attribute-type="String" v="true" xvt="" name="rolinterno" id="_151970693938583">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+            </jpa:basic>
+            <jpa:id attribute-type="Integer" v="true" xvt="" name="id" id="_151970631043671">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+                <jpa:generated-value strategy="AUTO"/>
+            </jpa:id>
+        </jpa:attributes>
+        <jpa:nq e="false" name="Rol.findAll">
+            <jpa:query>Select e from Rol e</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Rol.findByNombre">
+            <jpa:query>Select r from Rol r where r.nombre=:nombre</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Rol.findByRolinterno">
+            <jpa:query>Select r from Rol r where r.rolinterno=:rolinterno</jpa:query>
+        </jpa:nq>
+    </jpa:entity>
+    <jpa:entity compositePrimaryKeyClass="AutorizacionPK" abs="false" class="Autorizacion" v="true" jbn="false" xre="false" m="false" rootElement="_151970502192867" id="_1519706755192">
+        <jpa:ath>Antonio Carrasco Valero Copyright 2018</jpa:ath>
+        <jpa:attributes>
+            <jpa:many-to-one optional="true" primaryKey="false" connected-entity-id="_1519706797277" connected-attribute-id="_151970684962179" v="true" xvt="" name="usuario" id="_151970684962078">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+            </jpa:many-to-one>
+            <jpa:many-to-one optional="true" primaryKey="false" connected-entity-id="_1519706310435" v="true" xvt="" name="rol" id="_151970690130081">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+            </jpa:many-to-one>
+            <jpa:id attribute-type="Integer" v="true" xvt="" name="id" id="_151970675519374">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+                <jpa:generated-value strategy="AUTO"/>
+            </jpa:id>
+        </jpa:attributes>
+        <jpa:nq e="false" name="Autorizacion.findAll">
+            <jpa:query>Select e from Autorizacion e</jpa:query>
+        </jpa:nq>
+    </jpa:entity>
+    <jpa:entity compositePrimaryKeyClass="UsuarioPK" abs="false" class="Usuario" v="true" jbn="false" xre="false" m="false" rootElement="_151970502192867" id="_1519706797277">
+        <jpa:ath>Antonio Carrasco Valero Copyright 2018</jpa:ath>
+        <jpa:attributes>
+            <jpa:basic optional="false" attribute-type="String" v="true" xvt="" name="login" id="_151970709728387">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+                <jpa:column unique="false" nullable="true" insertable="true" updatable="true" length="32"/>
+            </jpa:basic>
+            <jpa:basic optional="false" attribute-type="String" v="true" xvt="" name="nombre" id="_151970708032884">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+                <jpa:column unique="false" nullable="true" insertable="true" updatable="true" length="32"/>
+            </jpa:basic>
+            <jpa:basic optional="false" attribute-type="String" v="true" xvt="" name="apellidos" id="_151970708634785">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+                <jpa:column unique="false" nullable="true" insertable="true" updatable="true" length="64"/>
+            </jpa:basic>
+            <jpa:basic optional="false" attribute-type="String" v="true" xvt="" name="email" id="_151970709218486">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+                <jpa:column unique="false" nullable="true" insertable="true" updatable="true" length="96"/>
+            </jpa:basic>
+            <jpa:basic optional="true" attribute-type="String" v="true" xvt="" name="salt" id="_151970713475688">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+                <jpa:column unique="false" nullable="true" insertable="true" updatable="true" length="64"/>
+            </jpa:basic>
+            <jpa:basic attribute-type="String" v="true" xvt="" name="password" id="_151970713933989">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+                <jpa:column unique="false" nullable="true" insertable="true" updatable="true" length="256"/>
+            </jpa:basic>
+            <jpa:basic optional="false" attribute-type="java.util.Calendar" v="true" xvt="" name="fechaCreacion" ft="true" id="_151970718428590">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+                <jpa:temporal>TIMESTAMP</jpa:temporal>
+                <jpa:column unique="false" nullable="true" insertable="true" updatable="true" column-definition="TIMESTAMP DEFAULT CURRENT_TIMESTAMP"/>
+            </jpa:basic>
+            <jpa:basic attribute-type="java.util.Calendar" v="true" xvt="" name="fechaUltimoLogin" id="_151970719218091">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+                <jpa:temporal>TIMESTAMP</jpa:temporal>
+            </jpa:basic>
+            <jpa:one-to-many orp="false" collection-type="java.util.List" connected-entity-id="_1519706755192" connected-attribute-id="_151970684962078" v="true" xvt="" name="autorizaciones" id="_151970684962179">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+            </jpa:one-to-many>
+            <jpa:id attribute-type="Integer" v="true" xvt="" name="id" id="_151970679727776">
+                <jpa:xwm nil="false" req="false"/>
+                <jpa:xm nil="false" req="false"/>
+                <jpa:generated-value strategy="AUTO"/>
+            </jpa:id>
+        </jpa:attributes>
+        <jpa:nq e="false" name="Usuario.findAll">
+            <jpa:query>Select e from Usuario e</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Usuario.findByNombre">
+            <jpa:query>Select u from Usuario u where u.nombre=:nombre</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Usuario.findByApellidos">
+            <jpa:query>Select u from Usuario u where u.apellidos=:apellidos</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Usuario.findByEmail">
+            <jpa:query>Select u from Usuario u where u.email=:email</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Usuario.findByLogin">
+            <jpa:query>Select u from Usuario u where u.login=:login</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Usuario.findBySalt">
+            <jpa:query>Select u from Usuario u where u.salt=:salt</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Usuario.findByPassword">
+            <jpa:query>Select u from Usuario u where u.password=:password</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Usuario.findByFechaCreacion">
+            <jpa:query>Select u from Usuario u where u.fechaCreacion=:fechaCreacion</jpa:query>
+        </jpa:nq>
+        <jpa:nq e="false" name="Usuario.findByFechaUltimoLogin">
+            <jpa:query>Select u from Usuario u where u.fechaUltimoLogin=:fechaUltimoLogin</jpa:query>
+        </jpa:nq>
+    </jpa:entity>
+    <jpa:snp loc="BEFORE_PACKAGE" e="true">/**
+ * stealmodel_jpa Antonio Carrasco Valero Copyright 2018
+ */</jpa:snp>
+    <jpa:c>
+        <ct>java.util.List</ct>
+        <ct>java.util.Set</ct>
+        <ct>java.util.Map</ct>
+        <ct>java.util.Collection</ct>
+        <cit>java.util.ArrayList</cit>
+        <cit>java.util.LinkedList</cit>
+        <cit>java.util.HashSet</cit>
+        <cit>java.util.TreeSet</cit>
+        <cit>java.util.HashMap</cit>
+    </jpa:c>
+    <jpa:wsl>
+        <jpa:ws n="Main" id="_151970502192868">
+            <i ref="_1519706755192" x="331" y="167"/>
+            <i ref="_1519706797277" x="74" y="-5"/>
+            <i ref="_1519706310435" x="614" y="347"/>
+        </jpa:ws>
+    </jpa:wsl>
+</jpa:entity-mappings>

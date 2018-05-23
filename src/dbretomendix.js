@@ -9,7 +9,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const mendixplatformsdk_1 = require("mendixplatformsdk");
-const dbre_1 = require("./sourcemeta/dbre");
 const m2mfromdbre_1 = require("./metatomendix/m2mfromdbre");
 const username = 'carrascoMendix@ModelDD.org';
 const apikey = '883ea2d1-12da-45d8-9474-9f7a8363771f'; // Key description "For MendixSdkTst01" created 20180506
@@ -23,7 +22,7 @@ function main() {
         const workingCopy = yield project.createWorkingCopy();
         const domainModel = yield loadDomainModel(workingCopy);
         try {
-            m2mfromdbre_1.default(domainModel, dbre_1.default);
+            m2mfromdbre_1.default(domainModel, DBRE);
         }
         catch (error) {
             console.error('Error during populating Mendix model:', error);

@@ -26,7 +26,7 @@ const YCURSOR_ENTITY = 20;
 const YCURSOR_ATTRIBUTE = 14;
 const YCURSOR_SPACE = 20;
 const YCURSOR_MAX = 800;
-function populateMendixFromDBRE(theDomainModel, theDBRE) {
+function populateMendixFromJPA(theDomainModel, theDBRE) {
     console.info("HI!");
     const someFKTablesAndColumns = new Map();
     const someTables = chooseAFewTables(theDBRE, someFKTablesAndColumns);
@@ -44,7 +44,7 @@ function populateMendixFromDBRE(theDomainModel, theDBRE) {
     }
     createAndPopulateAssociations(theDomainModel, someTables, someFKTablesAndColumns);
 }
-exports.default = populateMendixFromDBRE;
+exports.default = populateMendixFromJPA;
 function chooseAFewTables(theDBRE, theFKTablesAndColumns) {
     const someTables = rankTables(theDBRE.table, theFKTablesAndColumns);
     if (MAXENTITIES < 1) {

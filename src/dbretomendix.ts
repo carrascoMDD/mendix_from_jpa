@@ -1,7 +1,6 @@
 import { MendixSdkClient, OnlineWorkingCopy } from 'mendixplatformsdk';
 import { domainmodels } from 'mendixmodelsdk';
 
-import DBRE  from './sourcemeta/dbre';
 import populateMendixFromDBRE from './metatomendix/m2mfromdbre';
 
 const username = 'carrascoMendix@ModelDD.org';

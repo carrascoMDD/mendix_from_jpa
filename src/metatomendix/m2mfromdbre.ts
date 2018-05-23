@@ -34,7 +34,7 @@ const YCURSOR_MAX = 800;
 
 
 
-export default function populateMendixFromDBRE( theDomainModel : domainmodels.DomainModel, theDBRE : Idbre) {
+export default function populateMendixFromJPA( theDomainModel : domainmodels.DomainModel, theDBRE : Idbre) {
 
     console.info( "HI!");
 
